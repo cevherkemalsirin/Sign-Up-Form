@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --image-height:100vh;
+}
+html{
+    font-size: 20px;
+}
+body{
+    display: flex;
+    height: var(--image-height);
+}
+
+.left{
+    position: relative;
+    height: 100vh;  
+}
+
+.plant-img{
+    height: 100vh;
+    width: auto;
+}
+
+icon-img{
+    height: 250px;
+    width: auto;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: 0;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 100%;
+    height: 300px;
+    padding:10px;
+}
+
+.icon-box h1 {
+    font-size: 5rem;
+    color: white;
+    align-self: center;
+}
+
